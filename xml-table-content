@@ -55,7 +55,7 @@
       <edmu-dependencies-android/>
       <edmu-dependencies-ios/>
     </unity-platform>
-  </adapter>
+  </mediation>
 
   <mediation name="AdColony"
            description="AdColony description"
