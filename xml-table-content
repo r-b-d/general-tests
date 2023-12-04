@@ -21,7 +21,7 @@
 
   <!-- This is an exact duplicate form the entry Marketplace.
          In theory, we'd only need one but since change its visibility on the table involves 3rd parties, we clone it as a quick and dirty way to get it shown on the mediated networks table -->
-  <adapter name="DT Exchange"
+  <mediation name="DT Exchange"
            description=""
            url="https://developer.digitalturbine.com/hc/en-us/articles/360010814637-Welcome-to-Marketplace"
            programmatic-support="yes"
@@ -57,7 +57,7 @@
     </unity-platform>
   </adapter>
 
-  <adapter name="AdColony"
+  <mediation name="AdColony"
            description="AdColony description"
            url="https://clients.adcolony.com/login"
            programmatic-support="yes"
@@ -158,9 +158,9 @@
       </edmu-dependencies-ios>
     </unity-platform>
 
-  </adapter>
+  </mediation>
 
-  <adapter name="Marketplace"
+  <mediation name="Marketplace"
            description=""
            url="https://developer.digitalturbine.com/hc/en-us/articles/360010814637-Welcome-to-Marketplace"
            programmatic-support="yes"
@@ -205,7 +205,7 @@
       <edmu-dependencies-ios/>
     </unity-platform>
 
-  </adapter>
+  </mediation>
 
 </mediations>
 </dev-portal-configs>
