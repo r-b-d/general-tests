@@ -33,27 +33,12 @@
     <integration-guide-link/>
 
     <android-platform name="Android Platform" id="android" version="8.2.4">
-      <download-url/>
-      <maven-repositories/>
-      <maven-dependencies/>
-      <manifest-updates-root/>
-      <manifest-updates-application/>
     </android-platform>
 
     <ios-platform name="iOS Platform" id="ios" version="8.2.4">
-      <download-url/>
-      <cocoapods-dependencies/>
-      <ios-imports/>
-      <frameworks-list>
-      </frameworks-list>
-      <libraries-list>
-      </libraries-list>
-      <plist-updates/>
     </ios-platform>
 
     <unity-platform name="Unity Platform" id="unity">
-      <edmu-dependencies-android/>
-      <edmu-dependencies-ios/>
     </unity-platform>
   </mediation>
 
@@ -70,94 +55,14 @@
 
     <android-platform name="Android Platform" id="android" version="4.8.0">
       <download-url>https://repo1.maven.org/maven2/com/adcolony/sdk/4.8.0/sdk-4.8.0.aar</download-url>
-      <maven-repositories/>
-      <maven-dependencies>
-        <![CDATA[
-        // AdColony
-        implementation 'com.adcolony:sdk:4.8.0'
-
-      </maven-dependencies>
-      <manifest-updates-root>
-        <![CDATA[
-        <!-- AdColony -->
-        <!-- optional -->
-        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-        <!-- optional -->
-        <uses-permission android:name="android.permission.VIBRATE" />
-
-      </manifest-updates-root>
-      <manifest-updates-application/>
     </android-platform>
 
     <ios-platform name="iOS Platform" id="ios" version="4.9.0">
       <download-url>https://github.com/AdColony/AdColony-iOS-SDK/archive/refs/tags/v4.9.0.zip</download-url>
-      <cocoapods-dependencies>
-        <![CDATA[
-        pod 'AdColony', '4.9.0'
-
-      </cocoapods-dependencies>
-      <ios-imports>
-        <![CDATA[
-        @import AVFoundation;
-
-      </ios-imports>
-      <frameworks-list>
-        <![CDATA[
-        - libz.1.2.5.tbd
-
-      </frameworks-list>
-      <libraries-list>
-        <![CDATA[
-        -ObjC
-        -fobjc-arc
-
-      </libraries-list>
-      <plist-updates>
-        <![CDATA[
-        <key>LSApplicationQueriesSchemes</key>
-        <array>
-          <string>fb</string>
-          <string>instagram</string>
-          <string>tumblr</string>
-          <string>twitter</string>
-        </array>
-        <key>NSAppTransportSecurity</key>
-        <dict>
-          <key>NSAllowsArbitraryLoads</key>
-          <true/>
-        </dict>
-        <key>NSCameraUsageDescription</key>
-        <string>Some ad content may access camera to take picture.</string>
-        <key>NSMotionUsageDescription</key>
-        <string>Some ad content may require access to accelerometer for interactive ad experience.</string>
-        <key>NSPhotoLibraryUsageDescription</key>
-        <string>Some ad content may require access to the photo library.</string>
-        <key>SKAdNetworkItems</key>
-        <array>
-          <dict>
-            <key>SKAdNetworkIdentifier</key>
-            <string>4pfyvq9l8r.skadnetwork</string>
-          </dict>
-        </array>
-
-      </plist-updates>
     </ios-platform>
 
     <unity-platform name="Unity Platform" id="unity">
-      <edmu-dependencies-android>
-        <![CDATA[
-        <!-- AdColony -->
-        <androidPackage spec="com.adcolony:sdk:4.8.0"/>
-
-      </edmu-dependencies-android>
-      <edmu-dependencies-ios>
-        <![CDATA[
-        <!-- AdColony -->
-        <iosPod name="AdColony" version="4.9.0" bitcodeEnabled="true"/>
-
-      </edmu-dependencies-ios>
     </unity-platform>
-
   </mediation>
 
   <mediation name="Marketplace"
@@ -173,38 +78,14 @@
 
     <android-platform name="Android Platform" id="android" version="8.2.4">
       <download-url>https://repo1.maven.org/maven2/com/fyber/vamp/fairbid-bridge/8.2.4/fairbid-bridge-8.2.4.aar</download-url>
-      <maven-repositories/>
-      <maven-dependencies/>
-      <manifest-updates-root/>
-      <manifest-updates-application/>
     </android-platform>
 
     <ios-platform name="iOS Platform" id="ios" version="8.2.4">
       <download-url>https://github.com/inner-active/FMPAdapter/archive/refs/tags/8.2.4.zip</download-url>
-      <cocoapods-dependencies/>
-      <ios-imports/>
-      <frameworks-list>
-      </frameworks-list>
-      <libraries-list>
-      </libraries-list>
-      <plist-updates>
-        <![CDATA[
-        <key>SKAdNetworkItems</key>
-        <array>
-          <dict>
-            <key>SKAdNetworkIdentifier</key>
-            <string>krvm3zuq6h.skadnetwork</string>
-          </dict>
-        </array>
-
-      </plist-updates>
     </ios-platform>
 
     <unity-platform name="Unity Platform" id="unity">
-      <edmu-dependencies-android/>
-      <edmu-dependencies-ios/>
     </unity-platform>
-
   </mediation>
 
 </mediations>
