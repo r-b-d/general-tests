@@ -7,7 +7,7 @@
 <!--  <platform name="Unity Platform" id="unity" version="3.45.0" download-url="https://inneractive-assets.s3-eu-west-1.amazonaws.com/fairbid-sdk/unity/FairBid-Unity-SDK-3.45.0.zip"/>-->
   </platforms>
 </fybersdk>
-<adapters default-maven-repositories=""
+<mediations default-maven-repositories=""
           default-maven-dependencies="No networks selected"
           default-manifest-updates-root=""
           default-manifest-updates-application="The selected networks do not require manifest updates"
@@ -207,5 +207,5 @@
 
   </adapter>
 
-</adapters>
+</mediations>
 </dev-portal-configs>
