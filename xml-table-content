@@ -21,7 +21,7 @@
 
   <!-- This is an exact duplicate form the entry Marketplace.
          In theory, we'd only need one but since change its visibility on the table involves 3rd parties, we clone it as a quick and dirty way to get it shown on the mediated networks table -->
-  <mediation name=MAX"
+  <mediation name="MAX"
            description=""
            url="https://developer.digitalturbine.com/hc/en-us/articles/360010814637-Welcome-to-Marketplace"
            programmatic-support="yes"
